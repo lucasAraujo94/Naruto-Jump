@@ -1,0 +1,51 @@
+body {
+    background: rgb(19, 14, 14);
+  }
+  
+  .naruto {
+    position: absolute;
+    bottom: 0;
+    background-image: url(Personagens/naruto\ personagem.png);
+    width: 55px;
+    height: 120px;
+   
+  }
+  
+  .akatsuki {
+    position: absolute;
+    width: 55px;
+    height: 120px;
+    bottom: 0;
+    background-image: url(Personagens/akatsuki\ obstaculo.png);
+  }
+  
+  .game-over {
+    text-align: center;
+    color: rgb(150, 9, 9);
+    margin: 50px 0;
+    font-family: arial;
+  }
+  
+  @keyframes slideright {
+    from {
+        background-position: 399px;
+    }
+    to {
+        background-position: 0px;
+    }
+  }
+  
+  .background {
+    background-image: url('background/449f2b3b1aa59618685915842bbef61b.jpg');
+    position: absolute;
+    background-repeat: repeat-x;
+    animation: slideright 6000s infinite linear;
+    -webkit-animation: slideright 0s infinite linear;
+    width: 1355px;
+    height: 575px;
+    background-size: cover;
+    
+    
+    
+  }
+  
